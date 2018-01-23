@@ -1,1 +1,5 @@
 theme: jekyll-theme-architect
+title: Pinfire Club Manager updates
+show_downloads: false
+github:
+  is_project_page: false
