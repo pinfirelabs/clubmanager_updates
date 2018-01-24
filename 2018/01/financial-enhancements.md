@@ -52,3 +52,13 @@ You can now accept tips on any item sold through the POS.  If you use Clover, th
 ## Cost of goods tracking
 
 For any merchandise item in the system, you can add a cost and "cost account".  These tie in to the new "Sum of account profit by payment method" Financial Report to see the profits made over a period of time on your merchandise sales.
+
+## Selling events after they've started
+
+New in this release, we can now allow for POS sales (and invoicing) of event items after an event has started.  Previously, once an event started, we marked any items associated with it as "inactive", thus preventing their sale.  This could be problematic for any customer who registers later, or prior to invoicing, was allowed to participate before paying in full.
+
+In this new version, this "inactivation" becomes a two step process:
+* Step 1 - Any active payment items linked to an event are set to be "POS only", which prevents their purchase online.
+* Step 2 - Any active payment items are marked as "inactive", which hides them in the POS and makes them unpurchasable.
+
+By default, both steps 1 and 2 occur when an event starts, but these thresholds can be adjusted based upon your club's needs.  Remember, in this version, you can also "invoice" a customer for any event payments they owe, allowing for payments to be completed on the "payment due invoice", even after an event has started.
