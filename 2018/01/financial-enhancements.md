@@ -48,3 +48,7 @@ This new feature allows you to create quick-shortcut screens in the POS system (
 You can now accept tips on any item sold through the POS.  If you use Clover, the customer can select a tip amount on screen from preprogrammed percentages or enter their own.  If you are not using Clover, there is a new tip box you can utilize to add tips to any payment.
 
 ![Clover Tips.png](images/clover-tips.png)
+
+## Cost of goods tracking
+
+For any merchandise item in the system, you can add a cost and "cost account".  These tie in to the new "Sum of account profit by payment method" Financial Report to see the profits made over a period of time on your merchandise sales.
